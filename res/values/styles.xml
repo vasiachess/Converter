@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EditTextMain">
+        <item name="android:background">@color/bg_et_distance</item>
+        <item name="android:textSize">@dimen/text_size_distance</item>
+        <item name="android:textColor">@color/et_distance</item>
+    </style>
+
+
+    <style name="Btn">
+        <item name="android:textSize">@dimen/text_size_btn</item>
+    </style>
+
+</resources>

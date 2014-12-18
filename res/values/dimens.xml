@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_size_distance">30sp</dimen>
+    <dimen name="text_size_btn">25sp</dimen>
+    <dimen name="padding_distance">10dp</dimen>
+    <dimen name="margin_distance">15dp</dimen>
+
+</resources>

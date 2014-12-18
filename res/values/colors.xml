@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_activity">#3399cc</color>
+    <color name="bg_et_distance">#bbffffff</color>
+    <color name="et_distance">#000</color>
+    <color name="bg_button">#FF3AFF19</color>
+
+</resources>
