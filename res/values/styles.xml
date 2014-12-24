@@ -2,9 +2,10 @@
 <resources>
 
     <style name="EditTextMain">
-        <item name="android:background">@color/bg_et_distance</item>
+
         <item name="android:textSize">@dimen/text_size_distance</item>
         <item name="android:textColor">@color/et_distance</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
     </style>
 
 

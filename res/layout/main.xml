@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
         android:background="@color/bg_activity">
     <RelativeLayout
             android:layout_width="250dp"
             android:layout_height="wrap_content" android:layout_centerInParent="true">
         <EditText
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/etDistance" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
-                android:hint="Enter distance"
+                android:hint="@string/hint_enter_dist"
                 android:textSize="@dimen/text_size_distance"
                 android:padding="@dimen/padding_distance" android:layout_marginBottom="@dimen/margin_distance"
-                style="@style/EditTextMain" android:inputType="numberSigned|numberDecimal"/>
+                android:inputType="numberSigned|numberDecimal"
+                style="@style/EditTextMain"/>
         <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:layout_below="@+id/etDistance"
@@ -33,11 +34,11 @@
                     android:id="@+id/radioMile" style="@style/Btn"/>
         </RadioGroup>
         <Button
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/buttonConvert_text"
                 android:id="@+id/btnConvert" android:layout_gravity="center_horizontal"
-                android:background="@color/bg_button"
+                android:background="@drawable/selector_btn"
                 android:layout_below="@+id/radioGroup" android:layout_alignParentStart="true" style="@style/Btn"/>
     </RelativeLayout>
 </RelativeLayout>

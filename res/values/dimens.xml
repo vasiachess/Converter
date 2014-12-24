@@ -5,5 +5,9 @@
     <dimen name="text_size_btn">25sp</dimen>
     <dimen name="padding_distance">10dp</dimen>
     <dimen name="margin_distance">15dp</dimen>
+    <dimen name="padding_btn">5dp</dimen>
+    <dimen name="corner_radius_bnt">7dp</dimen>
+    <integer name="gradient_angle_btn">-90</integer>
+    <integer name="gradient_angle_btn_pressed">90</integer>
 
 </resources>
